@@ -1,0 +1,87 @@
+
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.boxcontainer{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    line-height: 2.5rem;
+}
+
+.box{
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: .3rem solid black;
+    justify-content: center ;
+    text-align: center;
+    margin: 2rem;
+}
+
+p{
+    font-size: 2rem;
+    color: #555555;
+    margin: 1rem;
+
+}
+
+.square1 {
+    height: 10rem;
+    width: 10rem;
+  background: rgb(237, 100, 35);
+  background: linear-gradient(
+    262deg,
+    rgba(237, 100, 35, 0.95) 17%,
+    rgba(237, 100, 35, 1) 27%,
+    rgba(238, 94, 33, 1) 53%,
+    rgba(255, 0, 0, 1) 100%
+  );
+}
+
+
+.square2{
+
+    height: 10rem;
+    width: 10rem;
+    background: rgb(43,143,20);
+    background: linear-gradient(0deg, rgba(43,143,20,1) 0%, rgba(109,253,45,1) 100%);
+}
+
+
+.square3{
+
+    height: 10rem;
+    width: 10rem;
+    background: #555555;
+}
+
+.square4{
+
+    height: 10rem;
+    width: 10rem;
+    background: #ffffff;
+    border: .1rem solid black;
+}
+
+.square5{
+
+    height: 10rem;
+    width: 10rem;
+    background: #f8f8fad2;
+    border: .1rem solid black;
+}
+.square6{
+
+    height: 10rem;
+    width: 10rem;
+    background:  #141414;
+    border: .1rem solid black;
+}
+
+
